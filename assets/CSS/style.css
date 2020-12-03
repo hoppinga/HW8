@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: #F3F1EB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 200;
+    color: #000000;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+h1 {
+  font-size: 130px;
+  font-weight: 100px;
+  color: #149859;
+  margin-top: 0px;
+}
+
+h1 span {
+  font-size: 20px;
+  color: #000000;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 18px;
+}
+
+h4 {
+  font-size: 12px;
+  color: #149859;
+  float: right;
+  margin-right: 15px;
+}
+
+button {
+  font-size: 30px;
+  line-height: 20px;
+  background: none;
+  border: solid;
+  border-width: 1px;
+  border-radius: 100%;
+  padding: 15px 17px;
+  margin-right: 18px;
+  margin-bottom: 16px;
+}
+
+.button-ten {
+  font-size: 30px;
+  background: none;
+  border: solid;
+  border-width: 1px;
+  border-radius: 100%;
+  padding: 15px 9px;
+}
+
+#load-button:focus {
+  border-color: #149859;
+  color: #149859;
+}
+
+#buttons {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+#description-text {
+  max-width: 550px;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:#149859;
+}
+
+#logo {
+  text-decoration: none;
+  color: #149859;
+}
+
+button:hover, .button-ten:hover {
+  border-color: #149859;
+  color: #149859;
+}
+
+button:focus {
+  outline:none !important;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+
