@@ -1,9 +1,13 @@
+html {
+  font-size: 100%;
+}
+
 body {
     margin: 0;
     background-color: #F3F1EB;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1em;
+    line-height: 1.5em;
     font-style: normal;
     font-weight: 200;
     color: #000000;
@@ -16,37 +20,37 @@ img {
 }
 
 h1 {
-  font-size: 130px;
-  font-weight: 100px;
+  font-size: 10vw;
+  font-weight: lighter;
   color: #149859;
   margin-top: 0px;
 }
 
 h1 span {
-  font-size: 20px;
+  font-size: .15em;
   color: #000000;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 h3 {
-  font-size: 12px;
+  font-size: .75em;
   margin-top: 5px;
-  line-height: 18px;
+  line-height: 1.2em;
 }
 
 h4 {
-  font-size: 12px;
+  font-size: .75em;
   color: #149859;
   float: right;
   margin-right: 15px;
 }
 
 button {
-  font-size: 30px;
-  line-height: 20px;
+  font-size: 1.875em;
+  line-height: .7em;
   background: none;
   border: solid;
   border-width: 1px;
@@ -57,7 +61,7 @@ button {
 }
 
 .button-ten {
-  font-size: 30px;
+  font-size: 1.875em;
   background: none;
   border: solid;
   border-width: 1px;
