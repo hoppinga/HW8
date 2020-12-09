@@ -38,16 +38,15 @@ buttonOne.onclick = function (e) {
     <p id=source>Source: <a href=https://www.guggenheim.org/exhibition/hilma-af-klint target=__blank>Solomon \
     R. Guggenheim Foundation</a></p>";
   
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-1.png"
-    imageSrc.alt = "Photograph of Hilma af Klint";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-1.png alt=Hilma af Klint painting id=img><h3 id=image-caption>According to Moderna Museet \
+    the photographer is unknown, Public domain, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Group III, The WU/Rose Series, No. 5, Erosserien” (1907). Source: The Hilma af Klint Foundation";
 };
 
 
-//BUTTON 2 CONTENT
+//BUTTON 2 CONTENT & IMAGE
 let buttonTwo = document.getElementById("button-two");
 buttonTwo.onclick = function (e) {
     e.preventDefault();
@@ -66,12 +65,11 @@ buttonTwo.onclick = function (e) {
     of-her-time?gclid=Cj0KCQiA-rj9BRCAARIsANB_4ACVFb-eOaw5RD59P49gxAlXJEjRjNEdT7fkz0JRtqp0lw4TB5wQdR8aAgCqEALw_wcB&gclsrc=aw.ds target=__blank>Solomon \
     R. Guggenheim Foundation</a></p>";
   
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-2.png"
-    imageSrc.alt = "Blue background and large white circle filled with multi-colored abstract shapes";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-2.png alt=Blue background and large white circle filled with multi-colored abstract shapes id=img><h3 id=image-caption>\
+    “Group III, The WU/Rose Series, No. 5, Erosserien” (1907). Source: The Hilma af Klint Foundation</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Group III, The WU/Rose Series, No. 5, Erosserien” (1907). Source: The Hilma af Klint Foundation";
 };
 
 
@@ -92,12 +90,11 @@ buttonThree.onclick = function (e) {
     circles.</p>\
     <p id=source>Source: <a href=https://www.nytimes.com/2018/10/11/arts/design/hilma-af-klint-review-guggenheim.html target=_blank>The New York Times</a></p>";
     
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-3.png"
-    imageSrc.alt = "Orange background filled with multi-colored abstract shapes";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-3.png alt=Orange background filled with multi-colored abstract shapes id=img><h3 id=image-caption>\
+    “Group IV, The Ten Largest, No. 3, Youth” (1907). Source: Hilma af Klint, Public domain, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Group IV, The Ten Largest, No. 3, Youth” (1907). Source: Hilma af Klint, Public domain, via Wikimedia Commons";
 };
 
 //BUTTON 4 CONTENT & IMAGE
@@ -117,12 +114,11 @@ buttonFour.onclick = function (e) {
     <p id=source>Source: <a href=https://www.guggenheim.org/audio/track/group-v-the-seven-pointed-star-no-1-1908-by-\
     hilma-af-klint target=_blank>Solomon R. Guggenheim Foundation</a></p>";
     
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-4.png"
-    imageSrc.alt = "Beige background with blue, yellow and orange lines and circles";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-4.png alt=Beige background with blue, yellow and orange lines and circles id=img><h3 id=image-caption>\
+    “Group V, The Seven-Pointed Star, No. 2” (1908). Source: Hilma af Klint, CC BY-SA 4.0, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Group V, The Seven-Pointed Star, No. 2” (1908). Source: Hilma af Klint, CC BY-SA 4.0, via Wikimedia Commons";
 };
 
 
@@ -143,12 +139,11 @@ buttonFive.onclick = function (e) {
     <p id=source>Source: <a href=https://www.guggenheim.org/audio/track/group-ix-suw-the-swan-no-1-1915-by-hilma-af-klint \
     target=_blank>Solomon R. Guggenheim Foundation</a></p>";
     
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-5.png"
-    imageSrc.alt = "Red background with bisected circle made up of smaller circles";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-5.png alt=Red background with bisected circle made up of smaller circles id=img><h3 id=image-caption>\
+    “Group IX/SUW, The Swan, No.17” (1915). Source: Hilma af Klint, Public domain, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Group IX/SUW, The Swan, No.17” (1915). Source: Hilma af Klint, Public domain, via Wikimedia Commons";
 };
 
 //BUTTON 6 CONTENT & IMAGE
@@ -167,12 +162,11 @@ buttonSix.onclick = function (e) {
     <p id=source>Source: <a href=https://www.guggenheim.org/audio/track/group-ix-uw-the-dove-no-3-1915-by-hilma-af-klint \
     target=_blank>Solomon R. Guggenheim Foundation</a></p>";
     
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-6.png"
-    imageSrc.alt = "Abstract multi-colored painting";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-6.png alt=Abstract multi-colored painting id=img><h3 id=image-caption>\
+    “Group IX/UW No. 25, The Dove, No. 1” (1915). Source: Rhododendrites, Public domain, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Group IX/UW No. 25, The Dove, No. 1” (1915). Source: Rhododendrites, Public domain, via Wikimedia Commons";
 };
 
 //BUTTON 7 CONTENT & IMAGE
@@ -189,15 +183,14 @@ buttonSeven.onclick = function (e) {
     the divine to the material world.”</p>\
     <p id=p-2>She also notes that af Klint imagined these paintings would be displayed in the center of the temple. Taken together with her previous \
     work, they represent an amalgamation of her exploration of spirituality and science.</p>\
-    <p id=source>Source: <a href=https://www.guggenheim.org/audio/track/group-x-altarpieces-nos-1-3-1915-by-hilma-af-klint#_ednref1\
-     target=_blank>Solomon R. Guggenheim Foundation</a></p>";
+    <p id=source>Source: <a href=https://www.guggenheim.org/audio/track/group-x-altarpieces-nos-1-3-1915-by-hilma-af-klint#_ednref1 \
+    target=_blank>Solomon R. Guggenheim Foundation</a></p>";
     
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-7.png"
-    imageSrc.alt = "Black background with rainbow triangle beneath sun-like shape";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-7.png alt=Black background with rainbow triangle beneath sun-like shape id=img><h3 id=image-caption>\
+    “Group X, Altarpiece, No.1” (1915). Source: Rhododendrites, Public domain, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Group X, Altarpiece, No.1” (1915). Source: Rhododendrites, Public domain, via Wikimedia Commons";
 };
 
 //BUTTON 8 CONTENT & IMAGE
@@ -213,15 +206,14 @@ buttonEight.onclick = function (e) {
     the Holy Grail; it may also be inspired by an opera about this story by Richard Wagner. </p>\
     <p id=p-2>In this series, Klint pares down the fantastical shapes and colors of her previous works to a series of simple hues rendered on \
     paper and intermixed with subtle words and symbols.</p>\
-    <p id=source>Source: <a href=https://www.guggenheim.org/audio/track/the-parsifal-series-1916-by-hilma-af-klint\
-     target=_blank>Solomon R. Guggenheim Foundation</a></p>";
+    <p id=source>Source: <a href=https://www.guggenheim.org/audio/track/the-parsifal-series-1916-by-hilma-af-klint \
+    target=_blank>Solomon R. Guggenheim Foundation</a></p>";
     
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-8.png"
-    imageSrc.alt = "Beige background with large brown rectangle filled with spiral";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-8.png alt=Beige background with large brown rectangle filled with spiral id=img><h3 id=image-caption>\
+    “Group I, The Parsifal Series, No.1” (1916). Source: Hilma af Klint, Public domain, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Group I, The Parsifal Series, No.1” (1916). Source: Hilma af Klint, Public domain, via Wikimedia Commons";
 };
 
 //BUTTON 9 CONTENT & IMAGE
@@ -238,15 +230,14 @@ buttonNine.onclick = function (e) {
     <p id=p-2>As af Klint continued to study religion and spirituality, this work may have been influenced by the yin and yang symbol found in Chinese \
     Buddhism. She also continues to divide her canvas into equal, opposing sections, perhaps representing how she viewed the relationship between science \
     and spirituality.</p>\
-    <p id=source>Source: <a href=https://www.hilmaafklint.se/en/about-hilma-af-klint/\
-     target=_blank>Hilma af Klint Foundation</a></p>";
+    <p id=source>Source: <a href=https://www.hilmaafklint.se/en/about-hilma-af-klint/ \
+    target=_blank>Hilma af Klint Foundation</a></p>";
     
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-9.png"
-    imageSrc.alt = "Beige background with bisected black and white circle";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-9.png alt=Beige background with bisected black and white circle id=img><h3 id=image-caption>\
+    “Buddhas Standpoint in the Earthly Life, No. 3a” (1920). Source: Hilma af Klint, Public domain, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“Buddhas Standpoint in the Earthy Life, No. 3a” (1920). Source: Hilma af Klint, Public domain, via Wikimedia Commons";
 };
 
 //BUTTON 10 CONTENT & IMAGE
@@ -265,13 +256,12 @@ buttonTen.onclick = function (e) {
     on a life of their own. In this way, she explores the confines and possibilities of the natural world.</p>\
     <p id=p-2>According to Tracey Bashkoff, curator at the Guggenheim, she continued to work with watercolors and develop this technique for \
     the rest of her life. Af Klint died in 1944, at the age of 81.</p>\
-    <p id=source>Source: <a href=ww.guggenheim.org/audio/track/on-the-viewing-of-flowers-and-trees-1922-by-hilma-af-klint\
-     target=_blank>Solomon R. Guggenheim Foundation</a></p>";
+    <p id=source>Source: <a href=ww.guggenheim.org/audio/track/on-the-viewing-of-flowers-and-trees-1922-by-hilma-af-klint \
+    target=_blank>Solomon R. Guggenheim Foundation</a></p>";
     
-    let imageSrc = document.getElementById("img");
-    imageSrc.src = "assets/images/image-10.png"
-    imageSrc.alt = "Abstract red, blue and black watercolor";
+    let image = document.getElementById("images");
+    image.innerHTML = 
+    "<img src=assets/images/image-10.png alt=Abstract red, blue and black watercolor id=img><h3 id=image-caption>\
+    “On the Viewing of Flowers and Trees, Wheat and Wormwood” (1922). Source: Hilma af Klint, Public domain, via Wikimedia Commons</h3>"
 
-    let imageCaption = document.getElementById("image-caption");
-    imageCaption.innerHTML = "“On the Viewing of Flowers and Trees, Wheat and Wormwood” (1922). Source: Hilma af Klint, Public domain, via Wikimedia Commons";
 };
