@@ -1,3 +1,5 @@
+/* basic site styles */
+
 html {
   font-size: 100%;
 }
@@ -13,6 +15,16 @@ body {
     color: #000000;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-sm-6 {
+  position: inherit;
+}
+
+/* images */
 #img {
   max-width: 100%;
   max-height: 100%;
@@ -23,7 +35,8 @@ body {
   -ms-animation: fadeIn ease 3s;
 }
 
-
+/* fade-in image animation*/ 
+/* fade-in styles originally written by Maddy Osman https://blog.hubspot.com/website/css-fade-in */
 
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -50,6 +63,7 @@ body {
   100% {opacity:1;}
 }
 
+/* fonts */
 
 h1 {
   font-size: 11vw;
@@ -61,6 +75,7 @@ h1 {
 h1 span {
   font-size: 1.25rem;
   color: #000000;
+  line-height: .5rem;
 }
 
 h2 {
@@ -79,6 +94,27 @@ h4 {
   float: right;
   margin-right: 15px;
 }
+
+#description-text {
+  max-width: 550px;
+}
+
+/* links */
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:#149859;
+}
+
+#logo {
+  text-decoration: none;
+  color: #149859;
+}
+
+/* numbered buttons */
 
 button {
   font-size: 1.875rem;
@@ -114,24 +150,6 @@ button {
   z-index: 1;
 }
 
-#description-text {
-  max-width: 550px;
-}
-
-a {
-  color: black;
-  text-decoration: underline;
-}
-
-a:hover {
-  color:#149859;
-}
-
-#logo {
-  text-decoration: none;
-  color: #149859;
-}
-
 button:hover, .button-ten:hover {
   border-color: #149859;
   color: #149859;
@@ -141,11 +159,4 @@ button:focus {
   outline:none !important;
 }
 
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
 
-.col-sm-6 {
-  position: inherit;
-}

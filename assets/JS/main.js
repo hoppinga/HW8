@@ -256,7 +256,7 @@ buttonTen.onclick = function (e) {
     on a life of their own. In this way, she explores the confines and possibilities of the natural world.</p>\
     <p id=p-2>According to Tracey Bashkoff, curator at the Guggenheim, she continued to work with watercolors and develop this technique for \
     the rest of her life. Af Klint died in 1944, at the age of 81.</p>\
-    <p id=source>Source: <a href=ww.guggenheim.org/audio/track/on-the-viewing-of-flowers-and-trees-1922-by-hilma-af-klint \
+    <p id=source>Source: <a href=https://www.guggenheim.org/audio/track/on-the-viewing-of-flowers-and-trees-1922-by-hilma-af-klint \
     target=_blank>Solomon R. Guggenheim Foundation</a></p>";
     
     let image = document.getElementById("images");
