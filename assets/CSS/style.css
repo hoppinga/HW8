@@ -78,6 +78,12 @@ h1 span {
   line-height: .5rem;
 }
 
+@media (max-width: 839px) {
+  .tagline {
+    display: block;
+  }
+
+}
 h2 {
   font-size: 1.25rem;
 }
@@ -146,8 +152,7 @@ button {
   float: right;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 0;
-  z-index: 1;
+  margin-left: 0 auto;
 }
 
 button:hover, .button-ten:hover {
