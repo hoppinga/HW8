@@ -12,7 +12,6 @@ numberButtons.forEach((mainButtons) => {
       selectedButton.style.removeProperty('border-color');
     }
     selectedButton = mainButtons;
-    console.log("hello")
     mainButtons.style.color = '#149859';
     mainButtons.style.borderColor = '#149859';
   })
